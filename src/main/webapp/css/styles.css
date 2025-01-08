@@ -1,0 +1,158 @@
+@charset "UTF-8";
+
+body {
+	font-family: sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #f0f0f0; /* Light grey background */
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+.container {
+	width: 80%;
+	margin: 20px auto;
+	background-color: white;
+	padding: 20px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	flex: 1; /* Allows container to take remaining vertical space */
+	display: flex;
+	flex-direction: column;
+}
+
+.form-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 20px;
+}
+
+.form-container label {
+	margin: 10px 0;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: 80%;
+	justify-content: space-between;
+}
+
+.form-container input {
+	padding: 8px;
+	margin-left: 15px;
+	width: 70%;
+}
+
+.form-container input[type="submit"] {
+	background-color: #4a90e2;
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-top: 20px;
+	width: 20%;
+	align-self: center;
+}
+
+.form-container input[type="submit"]:hover {
+	background-color: #357abd;
+}
+
+.header {
+	background-color: #ADD8E6; /* Blue background */
+	color: white;
+	padding: 10px;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.header h2 {
+	margin-right: auto;
+}
+
+.header img {
+	width: 100px;
+	height: auto;
+	border: 1px solid black;
+	margin: 10px;
+	display: block;
+	margin-left: auto;
+}
+
+.navigation {
+	margin: 20px auto;
+	text-align: center;
+	display: block;
+}
+
+.navigation a {
+	display: inline-block;
+	padding: 10px 20px;
+	text-decoration: none;
+	background-color: #4a90e2;
+	color: white;
+	border-radius: 5px;
+	margin: 0 10px;
+}
+
+.navigation a:hover {
+	background-color: #357abd;
+}
+
+.footer {
+	background-color: lightgray;
+	text-align: center;
+	padding: 10px;
+}
+
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+table {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.error-message {
+	color: red;
+	text-align: center;
+}
+
+.center {
+	text-align: center;
+}
+
+h3 {
+	text-align: center;
+	background-color: lightgray;
+	padding: 15px;
+	margin: 0 0px;
+}
+
+.center-text {
+	text-align: center;
+}
+
+.delete-button-container {
+	text-align: center;
+	margin-top: 20px;
+}
+
+.delete-button-container a {
+	display: inline-block;
+	padding: 10px 20px;
+	text-decoration: none;
+	background-color: #f44336;
+	color: white;
+	border-radius: 5px;
+}
+
+.delete-button-container a:hover {
+	background-color: #d32f2f;
+}
